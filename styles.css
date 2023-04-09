@@ -1,17 +1,85 @@
 /* styles.css */
 
 * {
+  list-style-type: none;
+  font-family: 'Source Code Pro', sans-serif;
+  text-decoration: none;
+  color: #f5f5f5;
+  background-color: #2E3532;
+}
 
-  background-color: #1f1f1f;
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+div{
+  text-align: center;
+}
+
+#homer {
+  height: auto;
+  width: 400px;
+  margin: 5px;
+  padding: 10px;
 
 }
 
 ul {
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
   font-size: 20px;
+  text-align: center;
 }
 
+.one {
+  display: inline;
+  padding: 10px;
+  margin: 30px;
+  text-align: left;
+}
 
+.two{
+  display: inline;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.three{
+  display: inline;
+  padding: 10px;
+  margin: 30px;
+  text-align: right;
+}
+
+.main {
+  text-align: center;
+  margin: 50px;
+  font-size: 55px;
+}
+
+a:visited { 
+  text-decoration: none; 
+  color: #F5F5F5; 
+ }
+
+a:hover { 
+  text-decoration: none; 
+  color: #F5F5F5;
+}
+
+a:focus { 
+  text-decoration: none; 
+  color: #F5F5F5; 
+}
+
+a:active { 
+  text-decoration: none; 
+  color: #F5F5F5; 
+}
 
